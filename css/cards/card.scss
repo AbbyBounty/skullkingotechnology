@@ -139,3 +139,10 @@
     text-align: left;
   }
 }
+
+@media only screen and (max-width: 600px) {
+  .site-footer {
+    height: 500px;
+    bottom: 0;
+  }
+}
