@@ -316,7 +316,7 @@ body {
 }
 
 .snip1222 {
-  font-family: 'Raleway', Arial, sans-serif;
+  font-family: "Raleway", Arial, sans-serif;
   position: relative;
   float: left;
   color: #bdbdbd;
@@ -339,7 +339,7 @@ body {
 }
 
 .snip1222 h1 {
-  font-family: 'Lora', Arial, sans-serif;
+  font-family: "Lora", Arial, sans-serif;
   font-size: 3.2em;
   margin: 0px;
 }
@@ -356,7 +356,7 @@ body {
   position: absolute;
   top: 60%;
   left: 50%;
-  content: '';
+  content: "";
   -webkit-transform: rotate(45deg) translate(-50%, -50%);
   transform: rotate(45deg) translate(-50%, -50%);
   -webkit-transform-origin: 0 0;
@@ -402,5 +402,14 @@ body {
 /* Demo purposes only */
 body {
   background-color: #212121;
+}
+
+#scroll-progress {
+  position: fixed;
+  top: 0;
+  width: 0%;
+  height: 4px;
+  background: #7983ff;
+  z-index: 10000;
 }
 /*# sourceMappingURL=style.css.map */

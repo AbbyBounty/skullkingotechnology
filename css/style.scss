@@ -278,14 +278,11 @@ body {
   background-color: #212121;
 }
 
-
-
-
 @import url(https://fonts.googleapis.com/css?family=Raleway);
 @import url(https://fonts.googleapis.com/css?family=Lora);
 @import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
 .snip1222 {
-  font-family: 'Raleway', Arial, sans-serif;
+  font-family: "Raleway", Arial, sans-serif;
   position: relative;
   float: left;
   color: #bdbdbd;
@@ -305,7 +302,7 @@ body {
   line-height: 1.1em;
 }
 .snip1222 h1 {
-  font-family: 'Lora', Arial, sans-serif;
+  font-family: "Lora", Arial, sans-serif;
   font-size: 3.2em;
   margin: 0px;
 }
@@ -320,7 +317,7 @@ body {
   position: absolute;
   top: 60%;
   left: 50%;
-  content: '';
+  content: "";
   -webkit-transform: rotate(45deg) translate(-50%, -50%);
   transform: rotate(45deg) translate(-50%, -50%);
   -webkit-transform-origin: 0 0;
@@ -362,6 +359,11 @@ body {
   background-color: #212121;
 }
 
-
-
-
+#scroll-progress {
+  position: fixed;
+  top: 0;
+  width: 0%;
+  height: 4px;
+  background: #7983ff;
+  z-index: 10000;
+}
