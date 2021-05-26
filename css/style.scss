@@ -31,7 +31,7 @@ p {
 }
 .social_links {
   background: #383838;
-height: 70px;
+  height: 70px;
   margin-top: 2rem;
   display: flex;
   flex-wrap: wrap;
@@ -85,4 +85,23 @@ height: 70px;
 .gt:hover,
 .gt:hover .circle {
   color: #1f1f1f;
+}
+
+.contact {
+
+  background: linear-gradient(to right, rgb(228, 107, 107) 20%, rgb(90, 112, 211) 40%, #ff0 60%, #fff 80%);
+  background-size: 200% auto;
+
+  color: #000;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  animation: shine 1s linear infinite;
+  @keyframes shine {
+    to {
+      background-position: 200% center;
+    }
+  }
 }
