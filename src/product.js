@@ -1,10 +1,11 @@
-import tab from './assets/tab.png'
+import cyborg88 from './assets/cyborg-88.png'
 
 
 const Product = () => {
     return (
         <div>
-            <img src={tab} />
+            <img src={cyborg88} alt="" />
+
         </div>
     )
 }

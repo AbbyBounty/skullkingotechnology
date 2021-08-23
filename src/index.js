@@ -3,15 +3,19 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import Header from './navbar.js';
 import App from './App.js';
+import Feature from './feature.js';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Product from './product.js'
 import SlideShow from './carousel.js'
+
 ReactDOM.render(
   <React.StrictMode>
-    <Header />
+    <Header  />
 
     <SlideShow />
+
+    <Feature />
 
   </React.StrictMode >,
   document.getElementById('root')
