@@ -275,7 +275,7 @@ p {
   font-size: 18px;
   letter-spacing: 1.5px;
   line-height: 1em;
-  margin: 15px 40px;
+  margin: -12px -18px;
   text-transform: uppercase;
 }
 
@@ -288,7 +288,7 @@ p {
 }
 
 .snip1555 li a {
-  color: #fff;
+  color: #4f0993;
   text-decoration: none;
 }
 
@@ -832,4 +832,33 @@ figure.snip1195:hover .add-to-cart, figure.snip1195.hover .add-to-cart {
   height: 150px;
   margin-top: -92px;
   visibility: hidden;
+}
+
+.custom-shape-divider-bottom-1629643817 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-bottom-1629643817 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 191px;
+}
+
+.custom-shape-divider-bottom-1629643817 .shape-fill {
+  fill: #F5A623;
+}
+
+/** For mobile devices **/
+
+@media (max-width: 767px) {
+  .custom-shape-divider-bottom-1629643817 svg {
+    width: calc(100% + 1.3px);
+    height: 137px;
+  }
 }
