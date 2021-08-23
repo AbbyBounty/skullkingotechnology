@@ -8,15 +8,16 @@ import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Product from './product.js'
 import SlideShow from './carousel.js'
+import Contact from './contact.js'
 
 ReactDOM.render(
   <React.StrictMode>
-    <Header  />
+    <Header />
 
     <SlideShow />
 
     <Feature />
-
+    <Contact />
   </React.StrictMode >,
   document.getElementById('root')
 );
