@@ -17,6 +17,7 @@ ReactDOM.render(
     <SlideShow />
 
     <Feature />
+    <Product />
     <Contact />
   </React.StrictMode >,
   document.getElementById('root')
