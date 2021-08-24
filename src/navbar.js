@@ -85,7 +85,7 @@ export default function Header() {
         <Popover className=" bg-white " style={{ position: "sticky", top: 0, zIndex: 1000 }}>
             <p className="bg-indigo-600 h-10 flex items-center justify-center text-sm font-medium text-white px-4 sm:px-6 lg:px-8">
 
-                Get The Best WiFi Experience For You Call
+                Get The Best WiFi Experience 
                                 <PhoneIcon className="h-5 w-6" aria-hidden="true" />
 <a href="tel:8665562570" className="text-base font-large text-white hover:text-gray-700"> 8665562570
 </a>
