@@ -6,7 +6,9 @@ const Footer = () => {
         <MDBFooter color="cyan" className="font-small darken-3 pt-0">
            
             <div className="footer-copyright text-center py-3">
-            <div className="mb-5 flex-center">
+         
+                <MDBContainer fluid>
+                <div className="mt-20 mb-3 flex-center">
                             <a className="fb-ic">
                                 <i className="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x">
                                 </i>
@@ -31,7 +33,6 @@ const Footer = () => {
                                 <i className="fab fa-pinterest fa-lg white-text fa-2x"> </i>
                             </a>
                         </div>
-                <MDBContainer fluid>
                     &copy; {new Date().getFullYear()}-{new Date().getFullYear()+1} Copyright:{" "}
                     <a href="https://www.skullkingotechnology.com"> skullkingotechnology.com </a>
                 </MDBContainer>
