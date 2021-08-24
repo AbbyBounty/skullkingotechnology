@@ -15,11 +15,13 @@
   ```
 */
 
+import sprinting from './assets/sprinting.gif'
+
 
 export default function Contact() {
     return (
         <>
-          
+
             <div className="hidden sm:block" aria-hidden="true">
                 <div className="py-5">
                     <div className="border-t border-gray-200" />
@@ -28,11 +30,13 @@ export default function Contact() {
 
             <div className="mt-10 sm:mt-0">
                 <div className="md:grid md:grid-cols-3 md:gap-6">
-                    <div className="md:col-span-1">
+                    <div className="md:col-span-1 mt-20">
                         <div className="px-4 sm:px-0">
                             <h3 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">Contact Us</h3>
                             <p className="mt-1 text-sm text-gray-600">Use a permanent address where you want install.</p>
                         </div>
+                        <img src={sprinting} alt="contactus" className=" mb-5" />
+
                     </div>
                     <div className="mt-5 md:mt-0 md:col-span-2">
                         <form action="#" method="POST">
