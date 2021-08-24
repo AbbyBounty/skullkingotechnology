@@ -3,8 +3,6 @@ import { Fragment } from 'react'
 import { Popover, Transition } from '@headlessui/react'
 // import { MenuIcon, XIcon } from '@heroicons/react/outline'
 import wifi from './assets/wifi.png'
-import tab from './assets/tab.png'
-import cyborg88 from './assets/cyborg-88.png'
 
 const navigation = [
     { name: 'Product', href: '#' },

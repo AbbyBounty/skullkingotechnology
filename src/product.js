@@ -15,8 +15,6 @@
   ```
 */
 
-import fourch from './assets/fourch.png'
-import eightch from './assets/eightch.png'
 
 const products = [
     {

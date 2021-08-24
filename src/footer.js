@@ -4,10 +4,9 @@ import { MDBCol, MDBContainer, MDBRow, MDBFooter } from "mdbreact";
 const Footer = () => {
     return (
         <MDBFooter color="cyan" className="font-small darken-3 pt-0">
-            <MDBContainer>
-                <MDBRow>
-                    <MDBCol md="12" className="py-5">
-                        <div className="mb-5 flex-center">
+           
+            <div className="footer-copyright text-center py-3">
+            <div className="mb-5 flex-center">
                             <a className="fb-ic">
                                 <i className="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x">
                                 </i>
@@ -32,12 +31,8 @@ const Footer = () => {
                                 <i className="fab fa-pinterest fa-lg white-text fa-2x"> </i>
                             </a>
                         </div>
-                    </MDBCol>
-                </MDBRow>
-            </MDBContainer>
-            <div className="footer-copyright text-center py-3">
                 <MDBContainer fluid>
-                    &copy; {new Date().getFullYear()} Copyright:{" "}
+                    &copy; {new Date().getFullYear()}-{new Date().getFullYear()+1} Copyright:{" "}
                     <a href="https://www.skullkingotechnology.com"> skullkingotechnology.com </a>
                 </MDBContainer>
             </div>
