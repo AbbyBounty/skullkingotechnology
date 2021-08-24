@@ -3,25 +3,25 @@ import { AnnotationIcon, GlobeAltIcon, LightningBoltIcon, ScaleIcon } from '@her
 
 const features = [
     {
-        name: 'Competitive exchange rates',
+        name: 'Global Coverage Area',
         description:
             'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
         icon: GlobeAltIcon,
     },
     {
-        name: 'No hidden fees',
+        name: 'Rapid Broadband Speeds',
         description:
             'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
         icon: ScaleIcon,
     },
     {
-        name: 'Transfers are instant',
+        name: 'Multiple Internet Options',
         description:
             'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
         icon: LightningBoltIcon,
     },
     {
-        name: 'Mobile notifications',
+        name: 'Standardized Processes',
         description:
             'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
         icon: AnnotationIcon,
@@ -34,11 +34,10 @@ export default function Feature() {
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="lg:text-center">
                     <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-                        A better way to  access <p className=" text-indigo-600 font-semibold tracking-wide uppercase"> INTERNET</p>
+                        Fast Internet On The  <p className=" text-indigo-600 font-semibold tracking-wide uppercase"> Largest Speed Network</p>
                     </p>
                     <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
-                        Lorem ipsum dolor sit amet consect adipisicing elit. Possimus magnam voluptatum cupiditate veritatis in
-                        accusamus quisquam.
+                    Get The Best WiFi Experience For You.
           </p>
                 </div>
 
