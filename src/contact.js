@@ -17,11 +17,11 @@
 export default function Contact() {
     return (
         <>
- <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="lg:text-center">
                     <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-                    Incredible Technology That Connects  <span className="block text-indigo-600 xl:inline">Millions</span> Of People </p>
-                   
+                        Incredible Technology That Connects  <span className="block text-indigo-600 xl:inline">Millions</span> Of People </p>
+
                 </div>
 
             </div>
@@ -46,7 +46,7 @@ export default function Contact() {
                                     <div className="grid grid-cols-6 gap-6">
                                         <div className="col-span-6 sm:col-span-3">
                                             <label htmlFor="first-name" className="block text-sm font-medium text-gray-700">
-                                                 Name
+                                                Name
                         </label>
                                             <input
                                                 type="text"
@@ -59,7 +59,7 @@ export default function Contact() {
 
                                         <div className="col-span-6 sm:col-span-3">
                                             <label htmlFor="last-name" className="block text-sm font-medium text-gray-700">
-                                               Contact No
+                                                Contact No
                         </label>
                                             <input
                                                 type="text"
@@ -121,7 +121,7 @@ export default function Contact() {
                                             />
                                         </div>
 
-                                    
+
                                     </div>
                                 </div>
                                 <div className="px-4 py-3 bg-gray-50 text-right sm:px-6">

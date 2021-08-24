@@ -9,6 +9,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Product from './product.js'
 import SlideShow from './carousel.js'
 import Contact from './contact.js'
+import Footer from './footer.js'
+
+import 'mdb-react-ui-kit/dist/css/mdb.min.css'
 
 ReactDOM.render(
   <React.StrictMode>
@@ -19,6 +22,7 @@ ReactDOM.render(
     <Feature />
     <Product />
     <Contact />
+    <Footer/>
   </React.StrictMode >,
   document.getElementById('root')
 );

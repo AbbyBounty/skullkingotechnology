@@ -23,7 +23,7 @@ const products = [
         id: 1,
         name: ` H.265 IP 2.0 MP DOME `,
         href: '#',
-        imageSrc: 'http://activepixel.in/wp-content/uploads/2018/07/07_AP-IPC-DM-40L2.jpg',
+        imageSrc: 'https://activepixel.in/wp-content/uploads/2018/07/07_AP-IPC-DM-40L2.jpg',
         imageAlt: " 2.4MP DOME.",
         price: 'Send Query',
         color: `1/3” Progressive Scan CMOS Image sensor 
@@ -39,7 +39,7 @@ const products = [
         name: 'Wifi Smart Wireless Video Ip Doorbell ',
         href: '#',
         imageSrc: 'http://activepixel.in/wp-content/uploads/2018/06/doorbell.jpg',
-        imageAlt: "Front of men's Basic Tee in black.",
+        imageAlt: "wifi Smart Wireless Video Ip Doorbell",
         price: 'Send Query',
         color: `Wide-angle Lens Camera
         P2P features for easy remote access
@@ -55,7 +55,7 @@ const products = [
         name: 'IP 4.0 MP BULLET CAMERA',
         href: '#',
         imageSrc: 'http://activepixel.in/wp-content/uploads/2021/07/208526010_1185512691875161_5169790219652922755_n.jpg',
-        imageAlt: "Front of men's Basic Tee in black.",
+        imageAlt: "IP 4.0 MP BULLET CAMERA.",
         price: 'Send Query',
         color: `1/3” Progressive Scan CMOS Image sensor
         4MP@2592*1520P Resolution
@@ -71,7 +71,7 @@ const products = [
         name: 'IP 5.0 MP DOME CAMERA',
         href: '#',
         imageSrc: 'http://activepixel.in/wp-content/uploads/2018/09/AP-IPC-DM-50L2-Product-Image-2.jpg',
-        imageAlt: "Front of men's Basic Tee in black.",
+        imageAlt: "IP 5.0 MP DOME CAMERA",
         price: 'Send Query',
         color: `IP 5.0 MP DOME CAMERA
         1/3” Progressive scan CMOS sensor
@@ -89,7 +89,7 @@ const products = [
         name: '4CH-2MP WIFI NVR KIT',
         href: '#',
         imageSrc: ' http://activepixel.in/wp-content/uploads/2021/07/217420790_2858891077692706_8159793461278444230_n.jpg ',
-        imageAlt: "Front of men's Basic Tee in black.",
+        imageAlt: "4CH-2MP WIFI NVR KIT",
         price: 'Send Query',
         color: `Image Sensor: 1/4" Color CMOS
         Minimum Illumination: 0.001 Lux
@@ -112,7 +112,7 @@ const products = [
         name: '4 CHANNEL 2MP DVR',
         href: '#',
         imageSrc: ' http://activepixel.in/wp-content/uploads/2018/07/01_AP-0404-1080N-H1-1.jpg',
-        imageAlt: "Front of men's Basic Tee in black.",
+        imageAlt: "4 CHANNEL 2MP DVR",
         price: 'Send Query',
         color: `4CH 1U 1080N, Video Compression H.264+
         DVR 4*1080N, IPC+TVI+CVI+AHD+CVBS (5in1/XVR)
