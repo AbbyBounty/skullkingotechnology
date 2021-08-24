@@ -10,6 +10,7 @@ import Product from './product.js'
 import SlideShow from './carousel.js'
 import Contact from './contact.js'
 import Footer from './footer.js'
+import Promo from './promo.js'
 
 import 'mdb-react-ui-kit/dist/css/mdb.min.css'
 
@@ -21,8 +22,9 @@ ReactDOM.render(
 
     <Feature />
     <Product />
+    <Promo />
     <Contact />
-    <Footer/>
+    <Footer />
   </React.StrictMode >,
   document.getElementById('root')
 );
