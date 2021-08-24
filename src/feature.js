@@ -1,5 +1,5 @@
 /* This example requires Tailwind CSS v2.0+ */
-import { AnnotationIcon, GlobeAltIcon, LightningBoltIcon, ScaleIcon } from '@heroicons/react/outline'
+import { AnnotationIcon, GlobeAltIcon, LightningBoltIcon, ScaleIcon,TrendingUpIcon,WifiIcon,ChatAlt2Icon } from '@heroicons/react/outline'
 
 const features = [
     {
@@ -12,19 +12,19 @@ const features = [
         name: 'Rapid Broadband Speeds',
         description:
             'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
-        icon: ScaleIcon,
+        icon: TrendingUpIcon,
     },
     {
         name: 'Multiple Internet Options',
         description:
             'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
-        icon: LightningBoltIcon,
+        icon: WifiIcon,
     },
     {
         name: 'Standardized Processes',
         description:
             'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
-        icon: AnnotationIcon,
+        icon: ChatAlt2Icon,
     },
 ]
 

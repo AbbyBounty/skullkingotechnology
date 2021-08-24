@@ -14,8 +14,9 @@ import {
     SupportIcon,
     ViewGridIcon,
     XIcon,
+    ChatIcon
 } from '@heroicons/react/outline'
-import { ChevronDownIcon } from '@heroicons/react/solid'
+import { ChatAlt2Icon } from '@heroicons/react/outline'
 
 const solutions = [
     {
@@ -82,18 +83,19 @@ function classNames(...classes) {
 export default function Header() {
     return (
         <Popover className=" bg-white " style={{ position: "sticky", top: 0, zIndex: 1000 }}>
-             <p className="bg-indigo-600 h-8 flex items-center justify-center text-sm font-medium text-white px-4 sm:px-6 lg:px-8">
-<span>
-Get The Best WiFi Experience For You Call 
-<a href="tel:8665562570" className="text-base font-large text-white hover:text-gray-700"> 8665562570</a>
+            <p className="bg-indigo-600 h-10 flex items-center justify-center text-sm font-medium text-white px-4 sm:px-6 lg:px-8">
+
+                Get The Best WiFi Experience For You Call
+                                <PhoneIcon className="h-5 w-6" aria-hidden="true" />
+<a href="tel:8665562570" className="text-base font-large text-white hover:text-gray-700"> 8665562570
+</a>
 
 
-</span>
 
 
 
 
-        </p>
+            </p>
             <div className="max-w-7xl mx-auto px-4 sm:px-6 ">
                 <div className="flex justify-between items-center border-b-2 border-gray-100 py-6 md:justify-start md:space-x-10">
                     <div className="flex justify-start lg:w-0 lg:flex-1">
@@ -143,7 +145,7 @@ Get The Best WiFi Experience For You Call
 
                         <a href="tel:8665562570"
                             className="ml-8 whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700">
-                            GET IN TOUCH </a>
+                            <ChatIcon className="h-5 w-6" aria-hidden="true" />      GET IN TOUCH </a>
 
                     </div>
 
